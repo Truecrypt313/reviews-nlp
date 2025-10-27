@@ -1,0 +1,26 @@
+# Lokale Umgebungen & Caches
+.venv/
+.mpl-config/
+
+__pycache__/
+*.pyc
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Daten-Politik (nur raw-CSV versionieren)
+data/**
+!data/raw/
+data/raw/**
+!data/raw/*.csv
+!data/raw/**/*.csv
+
+# Reports: CSV raus, Visuals/HTML rein
+reports/*.csv
+reports/**/*.csv
+reports/pretty/
+reports/pretty/*.png
+reports/pretty/**/*.png
+reports/pretty/*.html
+reports/pretty/**/*.html

@@ -1,0 +1,11 @@
+pandas==2.2.2
+beautifulsoup4==4.12.3
+lxml==5.3.0
+regex==2024.7.24
+spacy==3.7.4
+scikit-learn==1.5.2
+sentence-transformers==2.7.0
+torch==2.4.1
+matplotlib==3.9.2
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+gensim==4.3.3
