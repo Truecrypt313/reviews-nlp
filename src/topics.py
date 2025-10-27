@@ -28,8 +28,8 @@ SEED          = 42
 TOPN          = 10                  # Top-Wörter pro Topic
 
 # k-Werte:
-N_TOPICS_LDA  = 12                  # <- hier dein LDA-k eintragen
-N_TOPICS_NMF  = 12                  # <- hier dein NMF-k eintragen
+N_TOPICS_LDA  = <dein_k>                  # <- hier dein LDA-k eintragen
+N_TOPICS_NMF  = <dein_k>                  # <- hier dein NMF-k eintragen
 
 # Grid fürs Tuning:
 K_GRID        = [6, 8, 10, 12, 14]
