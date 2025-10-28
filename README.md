@@ -5,7 +5,8 @@ Den Projektordner herunterladen.<br>
 Ordner „reviews-nlp“ in einer Umgebung deiner Wahl öffnen/importieren.
 
 Die virtuelle Umgebung wird ggf. über settings.json im Projekt-Root automatisch aktiviert.<br>
-### Falls nicht, .venv manuell aktivieren:
+Falls nicht, 
+### .venv manuell aktivieren:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
