@@ -24,7 +24,7 @@ python src/preprocess.py
 Der bereinigte Datensatz liegt danach unter data/processed/ als "reviews_clean.csv".
 
 Zur Abschätzung, wie „stimmig“ (interpretierbar) die Top-Wörter eines Themas sind, bestimmen wir den Topic-Coherence-Score.<br> 
-Er prüft, ob die wichtigsten Wörter eines Topics häufig gemeinsam in denselben Dokumenten auftreten.<br><br>
+Er prüft, ob die wichtigsten Wörter eines Topics häufig gemeinsam in denselben Dokumenten auftreten.<br>
 ### Dafür zunächst die c_v-Coherence über mehrere k-Werte für LDA und NMF berechnen:
 ```bash
 python src/topics.py --tune
