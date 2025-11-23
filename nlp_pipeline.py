@@ -371,6 +371,7 @@ def train_and_viz(k_lda, k_nmf):
     index_html = render_index(sections, total_docs=len(base), data_source=PROC_CSV)
     print("[OK] Visuals:", PRETTY_DIR.resolve())
     print("     Öffne:", index_html)
+    print("--- Projektende ---")
 
 # --------------------- CLI ---------------------
 def main(argv):
