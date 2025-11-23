@@ -20,7 +20,7 @@ from sklearn.decomposition import LatentDirichletAllocation, NMF
 from gensim.corpora import Dictionary
 from gensim.models.coherencemodel import CoherenceModel
 
-# Pfade (robust relativ zur Datei)
+# Pfade
 ROOT = Path(__file__).resolve().parent
 RAW_DIR = ROOT / "data" / "raw"
 PROC_CSV = ROOT / "data" / "processed" / "reviews_clean.csv"
@@ -53,7 +53,7 @@ def pick_text_cols(df):
     else:
         cols = [c for c in df.columns if any(k in c.lower() for k in ["review", "text", "title", "comment", "content"])]
     if not cols:
-        raise ValueError("Keine sinnvollen Textspalten gefunden.")
+        raise ValueError("Keine geeigneten Textspalten gefunden.")
     return df[cols].fillna("").astype(str).agg(" ".join, axis=1)
 
 def lemmatize(texts):
