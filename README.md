@@ -1,4 +1,4 @@
-# Projekt: Data Analysis
+# Projekt: Data Analysis V2
 
 ### Projekt Download
 Den Projektordner herunterladen.<br>
@@ -17,6 +17,23 @@ pip install -r requirements.txt
 ```
 Den zu analysierenden Datensatz im CSV-Format unter data/raw/ ablegen (Der Datensatz liegt bereits in data/raw/ im .CSV-Format).
 
+## Variante 1: 
+### Ausführung des Codes in Version 2 vom 23.11.2025
+
+### Preprocessing ausführen
+```bash
+python nlp_pipeline.py --preprocess
+```
+### Coherence-Tuning starten
+```bash
+python nlp_pipeline.py --tune --k-grid 6,8,10,12,14
+```
+### Mit den gewählten k-Werten trainieren + visualisieren
+```bash
+python nlp_pipeline.py --all --k-lda <dein_k_lda> --k-nmf <dein_k_nmf>
+```
+
+## Variante 2: 
 ### Preprocessing ausführen, um einen bereinigten Datensatz zu erzeugen:
 ```bash
 python src/preprocess.py
