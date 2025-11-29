@@ -1,4 +1,4 @@
-# Projekt: Data Analysis V2
+# NLP Projekt: Data Analysis V2
 
 ### Projekt Download
 Den Projektordner herunterladen.<br>
@@ -17,8 +17,7 @@ pip install -r requirements.txt
 ```
 Den zu analysierenden Datensatz im CSV-Format unter data/raw/ ablegen (Der Datensatz liegt bereits in data/raw/ im .CSV-Format).
 
-## Variante 1: 
-### Ausführung des Codes in Version 2 vom 23.11.2025
+## Variante 1: Ausführung des Codes in Version 2 vom 23.11.2025
 
 ### Preprocessing ausführen
 ```bash
